@@ -13,5 +13,8 @@
     "chalk": "^4.1.0",
     "child_process": "^1.0.2",
     "figlet": "^1.5.0"
+  },
+  "bin": {
+    "aaria": "./aaria-cli.js"
   }
 }
