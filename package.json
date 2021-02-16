@@ -1,6 +1,6 @@
 {
   "name": "aaria-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "aaria-cli.js",
   "scripts": {
@@ -16,5 +16,9 @@
   },
   "bin": {
     "aaria": "./aaria-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gjagnoor/aaria-cli"
   }
 }

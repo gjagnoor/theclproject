@@ -21,6 +21,10 @@ to view a recursive list of directories in the folder, run:
 aaria type=d
 ```
 
+you'll see something like this: 
+
+![alt text](aaria.png)
+
 to view a recursive list of directories and files in the folder, run:
 
 ```
