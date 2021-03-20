@@ -8,7 +8,7 @@ Inspired by the `tree` cli tool in windows, `aaria` is a recursive directory/fil
 # Install
 
 ```
-npm i aaria -g
+npm i aaria-cli -g
 ```
 
 # Usage 
