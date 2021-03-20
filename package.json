@@ -1,8 +1,8 @@
 {
-  "name": "aaria-cli",
+  "name": "aaria",
   "version": "1.0.3",
   "description": "",
-  "main": "aaria-cli.js",
+  "main": "aaria.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,7 @@
     "figlet": "^1.5.0"
   },
   "bin": {
-    "aaria": "./aaria-cli.js"
+    "aaria": "./aaria.js"
   },
   "repository": {
     "type": "git",

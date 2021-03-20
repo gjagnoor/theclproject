@@ -1,4 +1,4 @@
-Inspired by the `tree` cli tool in windows, `aaria-cli` is a recursive directory/file listing program that produces a depth indented listing of folders/files in your system
+Inspired by the `tree` cli tool in windows, `aaria` is a recursive directory/file listing program that produces a depth indented listing of folders/files in your system
 
 # Highlights
 
@@ -8,7 +8,7 @@ Inspired by the `tree` cli tool in windows, `aaria-cli` is a recursive directory
 # Install
 
 ```
-npm i aaria-cli -g
+npm i aaria -g
 ```
 
 # Usage 
