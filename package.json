@@ -1,24 +1,28 @@
 {
-  "name": "aaria-cli",
-  "version": "1.0.5",
-  "description": "",
-  "main": "aaria-cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.0",
-    "child_process": "^1.0.2",
-    "figlet": "^1.5.0"
-  },
-  "bin": {
-    "aaria": "./aaria-cli.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gjagnoor/aaria-cli"
-  }
+    "name": "the-commandline-project",
+    "version": "1.0.5",
+    "description": "",
+    "main": "cl.js",
+    "scripts": {
+        "setup-test": "npm link",
+        "test": "lsfolder"
+    },
+    "keywords": [
+        "ls",
+        "list"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "child_process": "^1.0.2",
+        "figlet": "^1.5.0"
+    },
+    "bin": {
+        "lsfolder": "./cl.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gjagnoor/theclproject"
+    }
 }

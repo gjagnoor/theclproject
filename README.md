@@ -1,36 +1,40 @@
-Inspired by the `tree` cli tool in windows, `aaria` is a recursive directory/file listing program that produces a depth indented listing of folders/files in your system
-
-# Highlights
-
-- highly performant
-- clean and focused
+Inspired by the `ls` bash command, `the command line project` is a recursive directory/file listing program that produces a depth indented listing of folders/files in your system
 
 # Install
 
 ```
-npm i aaria-cli -g
+npm i lsfolder -g
 ```
 
-# Usage 
+# Usage
 
-using your terminal `cd` into the folder of your choice
+Using your terminal `cd` into the folder of your choice.
 
-to view a recursive list of directories in the folder, run: 
-
-```
-aaria type=d
-```
-
-you'll see something like this: 
-
-![alt text](aaria.png)
-
-to view a recursive list of directories and files in the folder, run:
+To view a recursive `list` of `directories` in the folder, run:
 
 ```
-aaria type=f
+lsfolder type=d
 ```
 
-Note: if you don't specify a `type` command, program defaults to listing all directories recursively. Files will not be listed
+OR
 
-<center> << Made with ♥ by Noor Grewal >>  </center>
+```
+lsfolder
+
+```
+
+You'll see something like this:
+
+![alt text](clProject.png)
+
+The image shows what you'll see when you run different lsfolder commands and how they compare to the good old beloved `ls`
+
+To view a recursive `list` of `directories` and `files` in the folder, run:
+
+```
+lsfolder type=f
+```
+
+Note: if you don't specify a `type` command, program defaults to listing all directories recursively. Files will not be listed. Type `d` is for directories and `f` is for directories and files.
+
+<center> << Made with ♥ by Jagnoor Grewal >>  </center>
