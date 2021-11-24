@@ -5,7 +5,9 @@
     "main": "cl.js",
     "scripts": {
         "setup-test": "npm link",
-        "test": "lsfolder"
+        "test": "lsfolder",
+        "publish": "npm publish",
+        "unpublish": "npm unpublish"
     },
     "keywords": [
         "ls",
